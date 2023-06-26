@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Bingyang Wu</title>
+    <link>https://BingyangWu.github.io/publication/</link>
+      <atom:link href="https://BingyangWu.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://BingyangWu.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Fast Distributed Inference Serving for Large Language Models</title>
+      <link>https://BingyangWu.github.io/publication/fastgen/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/fastgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparent GPU Sharing in Container Clouds for Deep Learning Workloads</title>
+      <link>https://BingyangWu.github.io/publication/tgs/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/tgs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction</title>
+      <link>https://BingyangWu.github.io/publication/amos/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/amos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training</title>
+      <link>https://BingyangWu.github.io/publication/neoflow/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/neoflow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
