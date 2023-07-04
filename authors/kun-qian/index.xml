@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kun Qian | Bingyang Wu</title>
+    <link>https://BingyangWu.github.io/authors/kun-qian/</link>
+      <atom:link href="https://BingyangWu.github.io/authors/kun-qian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kun Qian</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Kun Qian</title>
+      <link>https://BingyangWu.github.io/authors/kun-qian/</link>
+    </image>
+    
+    <item>
+      <title>XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale</title>
+      <link>https://BingyangWu.github.io/publication/xron/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/xron/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
