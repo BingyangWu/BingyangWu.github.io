@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruidong Zhu | Bingyang Wu</title>
+    <link>https://BingyangWu.github.io/authors/ruidong-zhu/</link>
+      <atom:link href="https://BingyangWu.github.io/authors/ruidong-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruidong Zhu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Ruidong Zhu</title>
+      <link>https://BingyangWu.github.io/authors/ruidong-zhu/</link>
+    </image>
+    
+    <item>
+      <title>dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving</title>
+      <link>https://BingyangWu.github.io/publication/dlora/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/dlora/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

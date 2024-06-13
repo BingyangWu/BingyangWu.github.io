@@ -5,12 +5,36 @@
     <link>https://BingyangWu.github.io/authors/xuanzhe-liu/</link>
       <atom:link href="https://BingyangWu.github.io/authors/xuanzhe-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Xuanzhe Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Xuanzhe Liu</title>
       <link>https://BingyangWu.github.io/authors/xuanzhe-liu/</link>
     </image>
+    
+    <item>
+      <title>dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving</title>
+      <link>https://BingyangWu.github.io/publication/dlora/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/dlora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism</title>
+      <link>https://BingyangWu.github.io/publication/loongserve/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/loongserve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A survey of resource-efficient llm and multimodal foundation models</title>
+      <link>https://BingyangWu.github.io/publication/llmsurvey/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/llmsurvey/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale</title>

@@ -5,12 +5,20 @@
     <link>https://BingyangWu.github.io/authors/yinmin-zhong/</link>
       <atom:link href="https://BingyangWu.github.io/authors/yinmin-zhong/index.xml" rel="self" type="application/rss+xml" />
     <description>Yinmin Zhong</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Yinmin Zhong</title>
       <link>https://BingyangWu.github.io/authors/yinmin-zhong/</link>
     </image>
+    
+    <item>
+      <title>LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism</title>
+      <link>https://BingyangWu.github.io/publication/loongserve/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/loongserve/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fast Distributed Inference Serving for Large Language Models</title>
