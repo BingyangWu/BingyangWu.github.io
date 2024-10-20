@@ -5,12 +5,84 @@
     <link>https://BingyangWu.github.io/authors/admin/</link>
       <atom:link href="https://BingyangWu.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Bingyang Wu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://BingyangWu.github.io/authors/admin/avatar_hu6e6db413fc72db9e6abb459569819e62_323049_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Bingyang Wu</title>
       <link>https://BingyangWu.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism</title>
+      <link>https://BingyangWu.github.io/publication/loongserve/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/loongserve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion</title>
+      <link>https://BingyangWu.github.io/publication/rlhfuse/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/rlhfuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dLoRA: Dynamically Orchestrating Requests and Adapters for LoRA LLM Serving</title>
+      <link>https://BingyangWu.github.io/publication/dlora/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/dlora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Survey of Resource-efficient LLM and Multimodal Foundation Models</title>
+      <link>https://BingyangWu.github.io/publication/llmsurvey/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/llmsurvey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XRON: A Hybrid Elastic Cloud Overlay Network for Video Conferencing at Planetary Scale</title>
+      <link>https://BingyangWu.github.io/publication/xron/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/xron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Distributed Inference Serving for Large Language Models</title>
+      <link>https://BingyangWu.github.io/publication/fastgen/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/fastgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparent GPU Sharing in Container Clouds for Deep Learning Workloads</title>
+      <link>https://BingyangWu.github.io/publication/tgs/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/tgs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction</title>
+      <link>https://BingyangWu.github.io/publication/amos/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/amos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NeoFlow: A Flexible Framework for Enabling Efficient Compilation for High Performance DNN Training</title>
+      <link>https://BingyangWu.github.io/publication/neoflow/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/neoflow/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
