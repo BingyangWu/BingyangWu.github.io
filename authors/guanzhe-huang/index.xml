@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guanzhe Huang | Bingyang Wu</title>
+    <link>https://BingyangWu.github.io/authors/guanzhe-huang/</link>
+      <atom:link href="https://BingyangWu.github.io/authors/guanzhe-huang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guanzhe Huang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Guanzhe Huang</title>
+      <link>https://BingyangWu.github.io/authors/guanzhe-huang/</link>
+    </image>
+    
+    <item>
+      <title>TokenLake: A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving</title>
+      <link>https://BingyangWu.github.io/publication/tokenlake/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/tokenlake/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

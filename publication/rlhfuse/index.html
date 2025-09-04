@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: October 31, 2024 --><html lang="en-us" >
+<!-- Last Published: September 4, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -315,7 +315,7 @@
 
   
 
-<meta name="description" content="Reinforcement Learning from Human Feedback (RLHF) enhances the alignment between LLMs and human preference. The workflow of RLHF typically involves several models and tasks in a series of distinct stages. Existing RLHF training systems view each task as the smallest execution unit thus overlooking the opportunities for subtask-level optimizations. Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage, and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization in production deployments. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to mitigate the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches. By leveraging the intuition that pipeline execution can be essentially complemented by another pipeline, RLHFuse performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, resulting in fewer pipeline bubbles. In addition, RLHFuse incorporates a series of system optimizations tailored for each stage of RLHF, making it efficient and scalable for our internal product usage. We evaluate RLHFuse on various popular LLMs and the results show that RLHFuse increases the training throughput by up to 3.7x, compared to existing state-of-the-art systems." />
+<meta name="description" content="We present RLHFuse, an efficient training system with stage fusion for Reinforcement Learning from Human Feedback (RLHF). Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to overlap the execution of generation and inference stages, thus mitigating the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches and performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, effectively mitigating the pipeline bubbles. The experiments show that RLHFuse increases the training throughput by up to 3.7×, compared to existing systems." />
 
 
 
@@ -357,17 +357,17 @@
 <meta property="twitter:image" content="https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Bingyang Wu" />
 <meta property="og:url" content="https://BingyangWu.github.io/publication/rlhfuse/" />
-<meta property="og:title" content="RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | Bingyang Wu" />
-<meta property="og:description" content="Reinforcement Learning from Human Feedback (RLHF) enhances the alignment between LLMs and human preference. The workflow of RLHF typically involves several models and tasks in a series of distinct stages. Existing RLHF training systems view each task as the smallest execution unit thus overlooking the opportunities for subtask-level optimizations. Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage, and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization in production deployments. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to mitigate the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches. By leveraging the intuition that pipeline execution can be essentially complemented by another pipeline, RLHFuse performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, resulting in fewer pipeline bubbles. In addition, RLHFuse incorporates a series of system optimizations tailored for each stage of RLHF, making it efficient and scalable for our internal product usage. We evaluate RLHFuse on various popular LLMs and the results show that RLHFuse increases the training throughput by up to 3.7x, compared to existing state-of-the-art systems." /><meta property="og:image" content="https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Optimizing RLHF Training for Large Language Models with Stage Fusion | Bingyang Wu" />
+<meta property="og:description" content="We present RLHFuse, an efficient training system with stage fusion for Reinforcement Learning from Human Feedback (RLHF). Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to overlap the execution of generation and inference stages, thus mitigating the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches and performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, effectively mitigating the pipeline bubbles. The experiments show that RLHFuse increases the training throughput by up to 3.7×, compared to existing systems." /><meta property="og:image" content="https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2024-09-02T00:00:00&#43;00:00"
+      content="2025-04-28T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2024-09-02T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-04-28T00:00:00&#43;00:00">
   
 
 
@@ -393,10 +393,10 @@
     "@type": "WebPage",
     "@id": "https://BingyangWu.github.io/publication/rlhfuse/"
   },
-  "headline": "RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion",
+  "headline": "Optimizing RLHF Training for Large Language Models with Stage Fusion",
   
-  "datePublished": "2024-09-02T00:00:00Z",
-  "dateModified": "2024-09-02T00:00:00Z",
+  "datePublished": "2025-04-28T00:00:00Z",
+  "dateModified": "2025-04-28T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -411,7 +411,7 @@
       "url": "https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Reinforcement Learning from Human Feedback (RLHF) enhances the alignment between LLMs and human preference. The workflow of RLHF typically involves several models and tasks in a series of distinct stages. Existing RLHF training systems view each task as the smallest execution unit thus overlooking the opportunities for subtask-level optimizations. Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage, and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization in production deployments. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to mitigate the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches. By leveraging the intuition that pipeline execution can be essentially complemented by another pipeline, RLHFuse performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, resulting in fewer pipeline bubbles. In addition, RLHFuse incorporates a series of system optimizations tailored for each stage of RLHF, making it efficient and scalable for our internal product usage. We evaluate RLHFuse on various popular LLMs and the results show that RLHFuse increases the training throughput by up to 3.7x, compared to existing state-of-the-art systems."
+  "description": "We present RLHFuse, an efficient training system with stage fusion for Reinforcement Learning from Human Feedback (RLHF). Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to overlap the execution of generation and inference stages, thus mitigating the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches and performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, effectively mitigating the pipeline bubbles. The experiments show that RLHFuse increases the training throughput by up to 3.7×, compared to existing systems."
 }
 </script>
 
@@ -433,7 +433,7 @@
 
 
   
-  <title>RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion | Bingyang Wu</title>
+  <title>Optimizing RLHF Training for Large Language Models with Stage Fusion | Bingyang Wu</title>
 
   
   
@@ -721,7 +721,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion</h1>
+  <h1>Optimizing RLHF Training for Large Language Models with Stage Fusion</h1>
 
   
 
@@ -760,7 +760,7 @@
     
       
     
-    September, 2024
+    April, 2025
   </span>
   
 
@@ -800,7 +800,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://www.arxiv.org/pdf/2409.13221" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://www.usenix.org/conference/nsdi25/presentation/zhong" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -837,7 +837,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Reinforcement Learning from Human Feedback (RLHF) enhances the alignment between LLMs and human preference. The workflow of RLHF typically involves several models and tasks in a series of distinct stages. Existing RLHF training systems view each task as the smallest execution unit thus overlooking the opportunities for subtask-level optimizations. Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage, and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization in production deployments. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to mitigate the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches. By leveraging the intuition that pipeline execution can be essentially complemented by another pipeline, RLHFuse performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, resulting in fewer pipeline bubbles. In addition, RLHFuse incorporates a series of system optimizations tailored for each stage of RLHF, making it efficient and scalable for our internal product usage. We evaluate RLHFuse on various popular LLMs and the results show that RLHFuse increases the training throughput by up to 3.7x, compared to existing state-of-the-art systems.</p>
+    <p class="pub-abstract">We present RLHFuse, an efficient training system with stage fusion for Reinforcement Learning from Human Feedback (RLHF). Due to the intrinsic nature of RLHF training, i.e., the data skewness in the generation stage and the pipeline bubbles in the training stage, existing RLHF systems suffer from low GPU utilization. RLHFuse breaks the traditional view of RLHF workflow as a composition of individual tasks, splitting each task into finer-grained subtasks, and performing stage fusion to improve GPU utilization. RLHFuse contains two key ideas. First, for generation and inference tasks, RLHFuse splits them into sample-level subtasks, enabling efficient inter-stage fusion to overlap the execution of generation and inference stages, thus mitigating the original generation bottleneck dominated by long-tailed samples. Second, for training tasks, RLHFuse breaks them into subtasks of micro-batches and performs intra-stage fusion to concurrently execute these subtasks in the training stage with a fused pipeline schedule, effectively mitigating the pipeline bubbles. The experiments show that RLHFuse increases the training throughput by up to 3.7×, compared to existing systems.</p>
     
 
     
@@ -848,8 +848,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -888,7 +888,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;text=RLHFuse%3A&#43;Efficient&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Inter-&#43;and&#43;Intra-Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;text=Optimizing&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -905,7 +905,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;t=RLHFuse%3A&#43;Efficient&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Inter-&#43;and&#43;Intra-Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;t=Optimizing&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -924,7 +924,7 @@
         
       
       <li>
-        <a href="mailto:?subject=RLHFuse%3A%20Efficient%20RLHF%20Training%20for%20Large%20Language%20Models%20with%20Inter-%20and%20Intra-Stage%20Fusion&amp;body=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Optimizing%20RLHF%20Training%20for%20Large%20Language%20Models%20with%20Stage%20Fusion&amp;body=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -941,7 +941,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;title=RLHFuse%3A&#43;Efficient&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Inter-&#43;and&#43;Intra-Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;title=Optimizing&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -958,7 +958,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=RLHFuse%3A&#43;Efficient&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Inter-&#43;and&#43;Intra-Stage&#43;Fusion%20https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Optimizing&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Stage&#43;Fusion%20https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -975,7 +975,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;title=RLHFuse%3A&#43;Efficient&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Inter-&#43;and&#43;Intra-Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2FBingyangWu.github.io%2Fpublication%2Frlhfuse%2F&amp;title=Optimizing&#43;RLHF&#43;Training&#43;for&#43;Large&#43;Language&#43;Models&#43;with&#43;Stage&#43;Fusion" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1027,7 +1027,7 @@
     <div class="media-body">
       <h5 class="card-title"><a href="https://BingyangWu.github.io/">Bingyang Wu</a></h5>
       <h6 class="card-subtitle">Ph.D. Candidate</h6>
-      <p class="card-text">My research interests include machine learning systems, video conferencing and cloud computing.</p>
+      <p class="card-text">My research interests include machine learning systems, distributed systems, and cloud computing.</p>
       <ul class="network-icon" aria-hidden="true">
   
     

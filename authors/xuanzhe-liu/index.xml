@@ -5,7 +5,7 @@
     <link>https://BingyangWu.github.io/authors/xuanzhe-liu/</link>
       <atom:link href="https://BingyangWu.github.io/authors/xuanzhe-liu/index.xml" rel="self" type="application/rss+xml" />
     <description>Xuanzhe Liu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Xuanzhe Liu</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>TokenLake: A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving</title>
+      <link>https://BingyangWu.github.io/publication/tokenlake/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/tokenlake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Distributed Inference Serving for Large Language Models</title>
+      <link>https://BingyangWu.github.io/publication/fastgen/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/fastgen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism</title>
       <link>https://BingyangWu.github.io/publication/loongserve/</link>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://BingyangWu.github.io/publication/loongserve/</guid>
       <description></description>
     </item>
@@ -41,14 +57,6 @@
       <link>https://BingyangWu.github.io/publication/xron/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://BingyangWu.github.io/publication/xron/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fast Distributed Inference Serving for Large Language Models</title>
-      <link>https://BingyangWu.github.io/publication/fastgen/</link>
-      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://BingyangWu.github.io/publication/fastgen/</guid>
       <description></description>
     </item>
     

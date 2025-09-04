@@ -5,7 +5,7 @@
     <link>https://BingyangWu.github.io/authors/yibo-zhu/</link>
       <atom:link href="https://BingyangWu.github.io/authors/yibo-zhu/index.xml" rel="self" type="application/rss+xml" />
     <description>Yibo Zhu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://BingyangWu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Yibo Zhu</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
-      <title>RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion</title>
+      <title>TokenLake: A Unified Segment-level Prefix Cache Pool for Fine-grained Elastic Long-Context LLM Serving</title>
+      <link>https://BingyangWu.github.io/publication/tokenlake/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/tokenlake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing RLHF Training for Large Language Models with Stage Fusion</title>
       <link>https://BingyangWu.github.io/publication/rlhfuse/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://BingyangWu.github.io/publication/rlhfuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StreamRL: Scalable, Heterogeneous, and Elastic RL for LLMs with Disaggregated Stream Generation</title>
+      <link>https://BingyangWu.github.io/publication/streamrl/</link>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://BingyangWu.github.io/publication/streamrl/</guid>
       <description></description>
     </item>
     
